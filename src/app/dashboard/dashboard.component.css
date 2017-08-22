@@ -1,0 +1,26 @@
+div.feature{
+    width:256px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #C8C8C8;
+}
+
+div.feature h4{
+    text-align: center;
+}
+
+div.feature div.ico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+div.feature div.ico img{
+    max-width:128px;
+}
+
+div.features{
+    display: flex;
+    flex-direction: line;
+}

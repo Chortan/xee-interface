@@ -1,0 +1,10 @@
+<p>Adresse IP : <b>{{ip}}</b></p>
+<div class="features">
+  <div class="feature" *ngFor="let feature of features">
+    <h4>{{feature.label}}</h4>
+    <div class="ico"><img *ngIf="feature.ico!=''" src="{{feature.ico}}"/></div>
+    <p>{{feature.description}}</p>
+    <p>Port : {{feature.port}}</p>
+    <a *ngIf="feature.http" target="_blank" href="http://{{ip}}:{{feature.port}}/">Open in new tabs</a>
+  </div>
+</div>
